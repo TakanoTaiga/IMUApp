@@ -2,7 +2,7 @@
 //  powerOffAnimation.swift
 //  IMUApp
 //
-//  Created by 高野大河 on 2021/08/22.
+//  Created by Taiga Takano on 2021/08/22.
 //
 
 import SwiftUI
@@ -41,9 +41,3 @@ struct powerOffAnimation: View {
         }
     }
 }
-
-//struct powerOffAnimation_Previews: PreviewProvider {
-//    static var previews: some View {
-//        powerOffAnimation()
-//    }
-//}

@@ -2,7 +2,7 @@
 //  directionView.swift
 //  IMUApp
 //
-//  Created by 高野大河 on 2021/08/13.
+//  Created by Taiga Takano on 2021/08/13.
 //
 
 import SwiftUI
@@ -21,17 +21,10 @@ struct directionView: View {
                 .font(.system(size: 150))
                 .rotationEffect(Angle(degrees: MSV2.degree ))
                 .foregroundColor(.gray)
-                //.animation(.linear)
         }
         
     }
 }
-
-//struct directionView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        directionView()
-//    }
-//}
 
 struct privatedirectionView: View {
     var body: some View {

@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  IMUApp
 //
-//  Created by 高野大河 on 2021/07/01.
+//  Created by Taiga Takano on 2021/07/01.
 //
 
 import SwiftUI

@@ -2,7 +2,7 @@
 //  UDPControllerClass.swift
 //  IMUApp
 //
-//  Created by 高野大河 on 2021/08/14.
+//  Created by Taiga Takano on 2021/08/14.
 //
 
 import Foundation

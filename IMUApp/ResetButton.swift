@@ -2,7 +2,7 @@
 //  ResetButton.swift
 //  IMUApp
 //
-//  Created by 高野大河 on 2021/08/14.
+//  Created by Taiga Takano on 2021/08/14.
 //
 
 import SwiftUI
@@ -25,9 +25,3 @@ struct ResetButton: View {
         }
     }
 }
-
-//struct ResetButton_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ResetButton()
-//    }
-//}

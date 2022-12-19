@@ -2,7 +2,7 @@
 //  NetworkInfomationViews.swift
 //  IMUApp
 //
-//  Created by 高野大河 on 2021/08/13.
+//  Created by Taiga Takano on 2021/08/13.
 //
 
 import SwiftUI
@@ -19,15 +19,8 @@ struct NetworkInfomationViews: View {
     }
 }
 
-//struct NetworkInfomationViews_Previews: PreviewProvider {
-//    static var previews: some View {
-//        NetworkInfomationViews()
-//    }
-//}
-
 struct IPAddressTextField: View {
     @ObservedObject var UDPC : UDPController
-    //@ObservedObject var UDPC = UDPController()
     var body: some View {
         TextField("0.0.0.0",text: $UDPC.IP )
             .font(.title.weight(.semibold))
@@ -37,7 +30,6 @@ struct IPAddressTextField: View {
 
 struct PortTextField: View {
     @ObservedObject var UDPC : UDPController
-    //@ObservedObject var UDPC = UDPController()
     var body: some View {
         TextField("0000",text: $UDPC.PORT)
             .font(.title.weight(.semibold))

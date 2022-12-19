@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FB0DBCFB26D127ED002D141C /* TestUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0DBCFA26D127ED002D141C /* TestUI.swift */; };
 		FB0DBCFD26D1CC59002D141C /* powerOffAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0DBCFC26D1CC59002D141C /* powerOffAnimation.swift */; };
 		FB0DBD0126D1E648002D141C /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0DBD0026D1E648002D141C /* Color.xcassets */; };
 		FB32538B26C6902E005F807C /* NetworkInfomationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32538A26C6902E005F807C /* NetworkInfomationViews.swift */; };
@@ -16,7 +15,6 @@
 		FB32539126C76D4F005F807C /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32539026C76D4F005F807C /* ResetButton.swift */; };
 		FB32539326C76D5A005F807C /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32539226C76D5A005F807C /* ShareButton.swift */; };
 		FB32539526C770D4005F807C /* UDPControllerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32539426C770D4005F807C /* UDPControllerClass.swift */; };
-		FB5B9BA827424B660003540C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B9BA727424B660003540C /* SwiftUIView.swift */; };
 		FB6D3FDE268E0A970079FCFD /* IMUAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D3FDD268E0A970079FCFD /* IMUAppApp.swift */; };
 		FB6D3FE0268E0A970079FCFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D3FDF268E0A970079FCFD /* ContentView.swift */; };
 		FB6D3FE2268E0A980079FCFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6D3FE1268E0A980079FCFD /* Assets.xcassets */; };
@@ -25,7 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FB0DBCFA26D127ED002D141C /* TestUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUI.swift; sourceTree = "<group>"; };
 		FB0DBCFC26D1CC59002D141C /* powerOffAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = powerOffAnimation.swift; sourceTree = "<group>"; };
 		FB0DBD0026D1E648002D141C /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		FB32538A26C6902E005F807C /* NetworkInfomationViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInfomationViews.swift; sourceTree = "<group>"; };
@@ -34,7 +31,6 @@
 		FB32539026C76D4F005F807C /* ResetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetButton.swift; sourceTree = "<group>"; };
 		FB32539226C76D5A005F807C /* ShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
 		FB32539426C770D4005F807C /* UDPControllerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPControllerClass.swift; sourceTree = "<group>"; };
-		FB5B9BA727424B660003540C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		FB6D3FDA268E0A970079FCFD /* IMUApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMUApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6D3FDD268E0A970079FCFD /* IMUAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMUAppApp.swift; sourceTree = "<group>"; };
 		FB6D3FDF268E0A970079FCFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,10 +82,8 @@
 				FB32539226C76D5A005F807C /* ShareButton.swift */,
 				FB6D3FEC268E0E850079FCFD /* Sensor.swift */,
 				FB32539426C770D4005F807C /* UDPControllerClass.swift */,
-				FB0DBCFA26D127ED002D141C /* TestUI.swift */,
 				FB0DBCFC26D1CC59002D141C /* powerOffAnimation.swift */,
 				FB0DBD0026D1E648002D141C /* Color.xcassets */,
-				FB5B9BA727424B660003540C /* SwiftUIView.swift */,
 			);
 			path = IMUApp;
 			sourceTree = "<group>";
@@ -174,11 +168,9 @@
 			files = (
 				FB6D3FE0268E0A970079FCFD /* ContentView.swift in Sources */,
 				FB32538F26C76D21005F807C /* directionStatus.swift in Sources */,
-				FB5B9BA827424B660003540C /* SwiftUIView.swift in Sources */,
 				FB32538D26C69D91005F807C /* directionView.swift in Sources */,
 				FB32539326C76D5A005F807C /* ShareButton.swift in Sources */,
 				FB6D3FED268E0E850079FCFD /* Sensor.swift in Sources */,
-				FB0DBCFB26D127ED002D141C /* TestUI.swift in Sources */,
 				FB32539526C770D4005F807C /* UDPControllerClass.swift in Sources */,
 				FB0DBCFD26D1CC59002D141C /* powerOffAnimation.swift in Sources */,
 				FB32539126C76D4F005F807C /* ResetButton.swift in Sources */,

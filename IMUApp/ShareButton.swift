@@ -2,7 +2,7 @@
 //  ShareButton.swift
 //  IMUApp
 //
-//  Created by 高野大河 on 2021/08/14.
+//  Created by Taiga Takano on 2021/08/14.
 //
 
 import SwiftUI
@@ -90,12 +90,6 @@ struct ShareButton: View {
         SendingTimer = nil
     }
 }
-
-//struct ShareButton_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ShareButton()
-//    }
-//}
 
 struct ShareButtonUI: View {
     @ObservedObject var UDPC : UDPController
